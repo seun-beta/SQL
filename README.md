@@ -33,13 +33,6 @@ Please install and set up the following packages first. Ugrade if you find the p
   ```sh
   <envname>\Scripts\activate
   ```
-* Install requirements in the virtual environment created:
-  ```sh
-  py -m pip install bottle 
-  ```
-  ```sh
-  pip install -r requirements.txt
-  ```
 * Run server to ensure everything is running properly.
   ```sh
   python main.py
