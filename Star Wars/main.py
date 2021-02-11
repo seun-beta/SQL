@@ -38,6 +38,3 @@ for person in data:
                 eye_color, birth_year, gender))
 
     connection.commit()
-
-
-

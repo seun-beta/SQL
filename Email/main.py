@@ -12,11 +12,13 @@ for line in file_handle:
         continue 
     line_list = line.split()
     email_address = line_list[1]
-    cur.execute('SELECT count FROM Counts WHERE email = ?', (email_address,))
+    cur.execute('SELECT count FROM Counts WHERE email = ?',
+                (email_address,))
     row = cur.fetchone()
     
     if row is None :
-        cur.execute('INSERT INTO Counts (email,count)VALUES (?,1)', (email_address,))
+        cur.execute('INSERT INTO Counts (email,count)VALUES (?,1)', 
+                    (email_address,))
     else :
         cur.execute('''UPDATE Counts SET count = count + 1
          WHERE email = ?''', (email_address,))
