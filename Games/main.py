@@ -39,5 +39,5 @@ for game in json_data:
         'INSERT INTO Games VALUES (?,?,?,?,?,?,?,?,?,?)', 
         (id, title, thumbnail, short_description, game_url, 
         genre,platform, publisher, developer, release_date,)
-        )
+    )
 connection.commit()
