@@ -1,6 +1,6 @@
 # SQL Projects
 
-SQL Projects is a series of programs I wrote to cement my understanding of using Python with SQL
+SQL Projects is a series of programs I wrote to showcase my understanding of using Python with SQL
 
 
 ### Tech
@@ -18,7 +18,7 @@ Please install and set up the following packages first. Ugrade if you find the p
   ```  
 * Download [pip](https://pip.pypa.io/en/latest/installing) and follow the instructions in the link as an installation guide.  
 * [SQLite3](https://sqlitebrowser.org/) (Ensure it is installed).
-* It is advisable to use bottle in a virtual environment. The README uses [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation) to create this virtual environment. You could use any virtualenv package of your choice but for Windows, install this wrapper with:
+* It is advisable to run this project in a virtual environment. The README uses [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation) to create this virtual environment. You could use any virtualenv package of your choice but for Windows, install this wrapper with:
   ```sh 
   py -m pip install virtualenvwrapper-win 
   ```
